@@ -31,5 +31,10 @@
     "@types/react": "^19.2.2",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
+  },
+  "overrides": {
+    "@google/genai": {
+      "protobufjs": "https://npm.aikido.io/21ed57e54ae4efeb5dbf4/protobufjs@7.5.4-aikido.8"
+    }
   }
 }
